@@ -6,8 +6,8 @@
     - Log in information:
         username = "username"
         password = "password"
-    
-2.Task Accomplished:
+        
+    2.Task Accomplished:
     - Allow a single user to “log in”/”log out”.
     - Display a list of tweets by recency from newest to oldest
     - Allow the user to post a new tweet (which is appended to the list).

@@ -26,8 +26,11 @@
         - It is not guaranteed to respond immediately because fetching from an API depends on the internet speed, iOs versions..
         - If the fetch request being called in main thread ( which we should not) it will also slow down the UI for the update.
         - If the request fails we need to send user a notification
+        - 
     b. Are users always able to log in?
         - User can only be looged in with correct username and password
+
+
     c. Should we add pagination if the list is too long?
         - In my opinion, scrolling is better than clicking( tapping )
         

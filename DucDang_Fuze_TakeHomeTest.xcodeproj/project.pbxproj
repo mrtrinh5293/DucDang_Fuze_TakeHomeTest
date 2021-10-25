@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A08BD2A5272738B5004876A6 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A08BD2A4272738B5004876A6 /* Launch Screen.storyboard */; };
+		A0B068622725C4F200BCEF51 /* DucDang_Fuze_TakeHomeTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B068612725C4F200BCEF51 /* DucDang_Fuze_TakeHomeTestApp.swift */; };
+		A0B068642725C4F200BCEF51 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B068632725C4F200BCEF51 /* ContentView.swift */; };
+		A0B068662725C4F300BCEF51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0B068652725C4F300BCEF51 /* Assets.xcassets */; };
+		A0B068692725C4F300BCEF51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0B068682725C4F300BCEF51 /* Preview Assets.xcassets */; };
+		A0B0686B2725C4F300BCEF51 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B0686A2725C4F300BCEF51 /* Persistence.swift */; };
+		A0B0686E2725C4F300BCEF51 /* DucDang_Fuze_TakeHomeTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0B0686C2725C4F300BCEF51 /* DucDang_Fuze_TakeHomeTest.xcdatamodeld */; };
+		A0B068782725C4F300BCEF51 /* DucDang_Fuze_TakeHomeTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B068772725C4F300BCEF51 /* DucDang_Fuze_TakeHomeTestTests.swift */; };
+		A0B068822725C4F300BCEF51 /* DucDang_Fuze_TakeHomeTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B068812725C4F300BCEF51 /* DucDang_Fuze_TakeHomeTestUITests.swift */; };
+		A0B068842725C4F300BCEF51 /* DucDang_Fuze_TakeHomeTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B068832725C4F300BCEF51 /* DucDang_Fuze_TakeHomeTestUITestsLaunchTests.swift */; };
+		A0B068952725C53B00BCEF51 /* Extension+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B068942725C53B00BCEF51 /* Extension+.swift */; };
+		A0B068972725C55600BCEF51 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B068962725C55600BCEF51 /* Service.swift */; };
+		A0B068992725C57B00BCEF51 /* TweetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B068982725C57B00BCEF51 /* TweetViewModel.swift */; };
+		A0B0689B2725C59A00BCEF51 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B0689A2725C59A00BCEF51 /* Tweet.swift */; };
+		A0B0689E2725C5CF00BCEF51 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B0689D2725C5CF00BCEF51 /* BaseView.swift */; };
+		A0B068A02725C5EB00BCEF51 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B0689F2725C5EB00BCEF51 /* CustomTextField.swift */; };
+		A0B068A22725C60200BCEF51 /* ExpandingModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B068A12725C60200BCEF51 /* ExpandingModal.swift */; };
+		A0B068A42725C62D00BCEF51 /* ButtonWithSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B068A32725C62D00BCEF51 /* ButtonWithSymbol.swift */; };
+		A0B068A62725C64C00BCEF51 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B068A52725C64C00BCEF51 /* FeedView.swift */; };
+		A0B068A82725C66500BCEF51 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B068A72725C66500BCEF51 /* LoginView.swift */; };
+		A0B068AA2725C68A00BCEF51 /* NewTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B068A92725C68A00BCEF51 /* NewTweetView.swift */; };
+		A0B068AC2725C6B600BCEF51 /* TweetRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B068AB2725C6B600BCEF51 /* TweetRowView.swift */; };
+		A0B068B32725D97100BCEF51 /* TestCoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B068B22725D97100BCEF51 /* TestCoreDataStack.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0B068742725C4F300BCEF51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0B068562725C4F200BCEF51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0B0685D2725C4F200BCEF51;
+			remoteInfo = DucDang_Fuze_TakeHomeTest;
+		};
+		A0B0687E2725C4F300BCEF51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0B068562725C4F200BCEF51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0B0685D2725C4F200BCEF51;
+			remoteInfo = DucDang_Fuze_TakeHomeTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A08BD2A4272738B5004876A6 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		A0B0685E2725C4F200BCEF51 /* DucDang_Fuze_TakeHomeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DucDang_Fuze_TakeHomeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0B068612725C4F200BCEF51 /* DucDang_Fuze_TakeHomeTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DucDang_Fuze_TakeHomeTestApp.swift; sourceTree = "<group>"; };
+		A0B068632725C4F200BCEF51 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A0B068652725C4F300BCEF51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0B068682725C4F300BCEF51 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A0B0686A2725C4F300BCEF51 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		A0B0686D2725C4F300BCEF51 /* DucDang_Fuze_TakeHomeTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DucDang_Fuze_TakeHomeTest.xcdatamodel; sourceTree = "<group>"; };
+		A0B068732725C4F300BCEF51 /* DucDang_Fuze_TakeHomeTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DucDang_Fuze_TakeHomeTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0B068772725C4F300BCEF51 /* DucDang_Fuze_TakeHomeTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DucDang_Fuze_TakeHomeTestTests.swift; sourceTree = "<group>"; };
+		A0B0687D2725C4F300BCEF51 /* DucDang_Fuze_TakeHomeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DucDang_Fuze_TakeHomeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0B068812725C4F300BCEF51 /* DucDang_Fuze_TakeHomeTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DucDang_Fuze_TakeHomeTestUITests.swift; sourceTree = "<group>"; };
+		A0B068832725C4F300BCEF51 /* DucDang_Fuze_TakeHomeTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DucDang_Fuze_TakeHomeTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A0B068942725C53B00BCEF51 /* Extension+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+.swift"; sourceTree = "<group>"; };
+		A0B068962725C55600BCEF51 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		A0B068982725C57B00BCEF51 /* TweetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetViewModel.swift; sourceTree = "<group>"; };
+		A0B0689A2725C59A00BCEF51 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		A0B0689D2725C5CF00BCEF51 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		A0B0689F2725C5EB00BCEF51 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		A0B068A12725C60200BCEF51 /* ExpandingModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingModal.swift; sourceTree = "<group>"; };
+		A0B068A32725C62D00BCEF51 /* ButtonWithSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWithSymbol.swift; sourceTree = "<group>"; };
+		A0B068A52725C64C00BCEF51 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		A0B068A72725C66500BCEF51 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A0B068A92725C68A00BCEF51 /* NewTweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTweetView.swift; sourceTree = "<group>"; };
+		A0B068AB2725C6B600BCEF51 /* TweetRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetRowView.swift; sourceTree = "<group>"; };
+		A0B068B22725D97100BCEF51 /* TestCoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCoreDataStack.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0B0685B2725C4F200BCEF51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B068702725C4F300BCEF51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B0687A2725C4F300BCEF51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0B068552725C4F200BCEF51 = {
+			isa = PBXGroup;
+			children = (
+				A0B068602725C4F200BCEF51 /* DucDang_Fuze_TakeHomeTest */,
+				A0B068762725C4F300BCEF51 /* DucDang_Fuze_TakeHomeTestTests */,
+				A0B068802725C4F300BCEF51 /* DucDang_Fuze_TakeHomeTestUITests */,
+				A0B0685F2725C4F200BCEF51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0B0685F2725C4F200BCEF51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0B0685E2725C4F200BCEF51 /* DucDang_Fuze_TakeHomeTest.app */,
+				A0B068732725C4F300BCEF51 /* DucDang_Fuze_TakeHomeTestTests.xctest */,
+				A0B0687D2725C4F300BCEF51 /* DucDang_Fuze_TakeHomeTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0B068602725C4F200BCEF51 /* DucDang_Fuze_TakeHomeTest */ = {
+			isa = PBXGroup;
+			children = (
+				A0B068932725C51A00BCEF51 /* Services */,
+				A0B068922725C51200BCEF51 /* ViewModels */,
+				A0B068912725C50900BCEF51 /* Views */,
+				A0B068902725C4FF00BCEF51 /* Models */,
+				A0B068612725C4F200BCEF51 /* DucDang_Fuze_TakeHomeTestApp.swift */,
+				A0B068632725C4F200BCEF51 /* ContentView.swift */,
+				A0B068652725C4F300BCEF51 /* Assets.xcassets */,
+				A08BD2A4272738B5004876A6 /* Launch Screen.storyboard */,
+				A0B0686C2725C4F300BCEF51 /* DucDang_Fuze_TakeHomeTest.xcdatamodeld */,
+				A0B068672725C4F300BCEF51 /* Preview Content */,
+			);
+			path = DucDang_Fuze_TakeHomeTest;
+			sourceTree = "<group>";
+		};
+		A0B068672725C4F300BCEF51 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A0B068682725C4F300BCEF51 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A0B068762725C4F300BCEF51 /* DucDang_Fuze_TakeHomeTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0B068772725C4F300BCEF51 /* DucDang_Fuze_TakeHomeTestTests.swift */,
+				A0B068B22725D97100BCEF51 /* TestCoreDataStack.swift */,
+			);
+			path = DucDang_Fuze_TakeHomeTestTests;
+			sourceTree = "<group>";
+		};
+		A0B068802725C4F300BCEF51 /* DucDang_Fuze_TakeHomeTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0B068812725C4F300BCEF51 /* DucDang_Fuze_TakeHomeTestUITests.swift */,
+				A0B068832725C4F300BCEF51 /* DucDang_Fuze_TakeHomeTestUITestsLaunchTests.swift */,
+			);
+			path = DucDang_Fuze_TakeHomeTestUITests;
+			sourceTree = "<group>";
+		};
+		A0B068902725C4FF00BCEF51 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A0B0689A2725C59A00BCEF51 /* Tweet.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A0B068912725C50900BCEF51 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A0B0689C2725C5B000BCEF51 /* Reuse-able Components */,
+				A0B0689D2725C5CF00BCEF51 /* BaseView.swift */,
+				A0B068A52725C64C00BCEF51 /* FeedView.swift */,
+				A0B068A72725C66500BCEF51 /* LoginView.swift */,
+				A0B068A92725C68A00BCEF51 /* NewTweetView.swift */,
+				A0B068AB2725C6B600BCEF51 /* TweetRowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A0B068922725C51200BCEF51 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A0B068982725C57B00BCEF51 /* TweetViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A0B068932725C51A00BCEF51 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A0B068942725C53B00BCEF51 /* Extension+.swift */,
+				A0B068962725C55600BCEF51 /* Service.swift */,
+				A0B0686A2725C4F300BCEF51 /* Persistence.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A0B0689C2725C5B000BCEF51 /* Reuse-able Components */ = {
+			isa = PBXGroup;
+			children = (
+				A0B0689F2725C5EB00BCEF51 /* CustomTextField.swift */,
+				A0B068A32725C62D00BCEF51 /* ButtonWithSymbol.swift */,
+				A0B068A12725C60200BCEF51 /* ExpandingModal.swift */,
+			);
+			path = "Reuse-able Components";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0B0685D2725C4F200BCEF51 /* DucDang_Fuze_TakeHomeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0B068872725C4F300BCEF51 /* Build configuration list for PBXNativeTarget "DucDang_Fuze_TakeHomeTest" */;
+			buildPhases = (
+				A0B0685A2725C4F200BCEF51 /* Sources */,
+				A0B0685B2725C4F200BCEF51 /* Frameworks */,
+				A0B0685C2725C4F200BCEF51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DucDang_Fuze_TakeHomeTest;
+			productName = DucDang_Fuze_TakeHomeTest;
+			productReference = A0B0685E2725C4F200BCEF51 /* DucDang_Fuze_TakeHomeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0B068722725C4F300BCEF51 /* DucDang_Fuze_TakeHomeTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0B0688A2725C4F300BCEF51 /* Build configuration list for PBXNativeTarget "DucDang_Fuze_TakeHomeTestTests" */;
+			buildPhases = (
+				A0B0686F2725C4F300BCEF51 /* Sources */,
+				A0B068702725C4F300BCEF51 /* Frameworks */,
+				A0B068712725C4F300BCEF51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0B068752725C4F300BCEF51 /* PBXTargetDependency */,
+			);
+			name = DucDang_Fuze_TakeHomeTestTests;
+			productName = DucDang_Fuze_TakeHomeTestTests;
+			productReference = A0B068732725C4F300BCEF51 /* DucDang_Fuze_TakeHomeTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0B0687C2725C4F300BCEF51 /* DucDang_Fuze_TakeHomeTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0B0688D2725C4F300BCEF51 /* Build configuration list for PBXNativeTarget "DucDang_Fuze_TakeHomeTestUITests" */;
+			buildPhases = (
+				A0B068792725C4F300BCEF51 /* Sources */,
+				A0B0687A2725C4F300BCEF51 /* Frameworks */,
+				A0B0687B2725C4F300BCEF51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0B0687F2725C4F300BCEF51 /* PBXTargetDependency */,
+			);
+			name = DucDang_Fuze_TakeHomeTestUITests;
+			productName = DucDang_Fuze_TakeHomeTestUITests;
+			productReference = A0B0687D2725C4F300BCEF51 /* DucDang_Fuze_TakeHomeTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0B068562725C4F200BCEF51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					A0B0685D2725C4F200BCEF51 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					A0B068722725C4F300BCEF51 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = A0B0685D2725C4F200BCEF51;
+					};
+					A0B0687C2725C4F300BCEF51 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = A0B0685D2725C4F200BCEF51;
+					};
+				};
+			};
+			buildConfigurationList = A0B068592725C4F200BCEF51 /* Build configuration list for PBXProject "DucDang_Fuze_TakeHomeTest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0B068552725C4F200BCEF51;
+			productRefGroup = A0B0685F2725C4F200BCEF51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0B0685D2725C4F200BCEF51 /* DucDang_Fuze_TakeHomeTest */,
+				A0B068722725C4F300BCEF51 /* DucDang_Fuze_TakeHomeTestTests */,
+				A0B0687C2725C4F300BCEF51 /* DucDang_Fuze_TakeHomeTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0B0685C2725C4F200BCEF51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A08BD2A5272738B5004876A6 /* Launch Screen.storyboard in Resources */,
+				A0B068692725C4F300BCEF51 /* Preview Assets.xcassets in Resources */,
+				A0B068662725C4F300BCEF51 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B068712725C4F300BCEF51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B0687B2725C4F300BCEF51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0B0685A2725C4F200BCEF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0B0686B2725C4F300BCEF51 /* Persistence.swift in Sources */,
+				A0B068992725C57B00BCEF51 /* TweetViewModel.swift in Sources */,
+				A0B068952725C53B00BCEF51 /* Extension+.swift in Sources */,
+				A0B068642725C4F200BCEF51 /* ContentView.swift in Sources */,
+				A0B068A22725C60200BCEF51 /* ExpandingModal.swift in Sources */,
+				A0B068A02725C5EB00BCEF51 /* CustomTextField.swift in Sources */,
+				A0B0686E2725C4F300BCEF51 /* DucDang_Fuze_TakeHomeTest.xcdatamodeld in Sources */,
+				A0B068AA2725C68A00BCEF51 /* NewTweetView.swift in Sources */,
+				A0B068622725C4F200BCEF51 /* DucDang_Fuze_TakeHomeTestApp.swift in Sources */,
+				A0B068AC2725C6B600BCEF51 /* TweetRowView.swift in Sources */,
+				A0B068A82725C66500BCEF51 /* LoginView.swift in Sources */,
+				A0B0689E2725C5CF00BCEF51 /* BaseView.swift in Sources */,
+				A0B068972725C55600BCEF51 /* Service.swift in Sources */,
+				A0B068A62725C64C00BCEF51 /* FeedView.swift in Sources */,
+				A0B0689B2725C59A00BCEF51 /* Tweet.swift in Sources */,
+				A0B068A42725C62D00BCEF51 /* ButtonWithSymbol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B0686F2725C4F300BCEF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0B068782725C4F300BCEF51 /* DucDang_Fuze_TakeHomeTestTests.swift in Sources */,
+				A0B068B32725D97100BCEF51 /* TestCoreDataStack.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B068792725C4F300BCEF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0B068822725C4F300BCEF51 /* DucDang_Fuze_TakeHomeTestUITests.swift in Sources */,
+				A0B068842725C4F300BCEF51 /* DucDang_Fuze_TakeHomeTestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0B068752725C4F300BCEF51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0B0685D2725C4F200BCEF51 /* DucDang_Fuze_TakeHomeTest */;
+			targetProxy = A0B068742725C4F300BCEF51 /* PBXContainerItemProxy */;
+		};
+		A0B0687F2725C4F300BCEF51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0B0685D2725C4F200BCEF51 /* DucDang_Fuze_TakeHomeTest */;
+			targetProxy = A0B0687E2725C4F300BCEF51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A0B068852725C4F300BCEF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0B068862725C4F300BCEF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0B068882725C4F300BCEF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DucDang_Fuze_TakeHomeTest/Preview Content\"";
+				DEVELOPMENT_TEAM = DMUGLP379U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ducdang.DucDang-Fuze-TakeHomeTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0B068892725C4F300BCEF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DucDang_Fuze_TakeHomeTest/Preview Content\"";
+				DEVELOPMENT_TEAM = DMUGLP379U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ducdang.DucDang-Fuze-TakeHomeTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0B0688B2725C4F300BCEF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DMUGLP379U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ducdang.DucDang-Fuze-TakeHomeTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DucDang_Fuze_TakeHomeTest.app/DucDang_Fuze_TakeHomeTest";
+			};
+			name = Debug;
+		};
+		A0B0688C2725C4F300BCEF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DMUGLP379U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ducdang.DucDang-Fuze-TakeHomeTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DucDang_Fuze_TakeHomeTest.app/DucDang_Fuze_TakeHomeTest";
+			};
+			name = Release;
+		};
+		A0B0688E2725C4F300BCEF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DMUGLP379U;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ducdang.DucDang-Fuze-TakeHomeTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DucDang_Fuze_TakeHomeTest;
+			};
+			name = Debug;
+		};
+		A0B0688F2725C4F300BCEF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DMUGLP379U;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ducdang.DucDang-Fuze-TakeHomeTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DucDang_Fuze_TakeHomeTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0B068592725C4F200BCEF51 /* Build configuration list for PBXProject "DucDang_Fuze_TakeHomeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0B068852725C4F300BCEF51 /* Debug */,
+				A0B068862725C4F300BCEF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0B068872725C4F300BCEF51 /* Build configuration list for PBXNativeTarget "DucDang_Fuze_TakeHomeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0B068882725C4F300BCEF51 /* Debug */,
+				A0B068892725C4F300BCEF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0B0688A2725C4F300BCEF51 /* Build configuration list for PBXNativeTarget "DucDang_Fuze_TakeHomeTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0B0688B2725C4F300BCEF51 /* Debug */,
+				A0B0688C2725C4F300BCEF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0B0688D2725C4F300BCEF51 /* Build configuration list for PBXNativeTarget "DucDang_Fuze_TakeHomeTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0B0688E2725C4F300BCEF51 /* Debug */,
+				A0B0688F2725C4F300BCEF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A0B0686C2725C4F300BCEF51 /* DucDang_Fuze_TakeHomeTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A0B0686D2725C4F300BCEF51 /* DucDang_Fuze_TakeHomeTest.xcdatamodel */,
+			);
+			currentVersion = A0B0686D2725C4F300BCEF51 /* DucDang_Fuze_TakeHomeTest.xcdatamodel */;
+			path = DucDang_Fuze_TakeHomeTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A0B068562725C4F200BCEF51 /* Project object */;
+}

@@ -14,7 +14,9 @@
     - On launch, if the user is logged in, automatically display older tweets and only query for newer ones.
 
 3. Unit Testing
-    - Since I'm not very familiar with Unit Test CoreData, I then created a moc list of tweet and write unit test base on that. Which included:
+    - Core Data
+        + Test if new tweet is saved
+    - I also created a moc list of tweet and write unit test base on that. Which included:
         + Test sorted list by date
         + Test Display a list of tweets by recency from newest to oldest
         + Test login with correct username and password
